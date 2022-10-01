@@ -1,6 +1,6 @@
-# mind-elixir plugin template
+# @mind-elixir/export-image
 
-**WIP**
+**WIP🚧**
 
 ## Install
 
@@ -19,3 +19,7 @@ mind.install(exportImage)
 const data = MindElixir.new('new topic')
 mind.init(example)
 ```
+
+## Thanks
+
+[canvg](https://github.com/canvg/canvg)
