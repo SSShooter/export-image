@@ -1,9 +1,21 @@
 # mind-elixir plugin template
 
-## How To Use
+**WIP**
 
-- replace all `template-name` in `package.json`
-- replace all `template-name` in `vite.config.js`
-- add `peerDependencies` if needed
-- run `npm run dev` to develop the plugin (the entry point is `main.js`)
-- run `npm run build` to build the plugin (the entry point is `index.js`)
+## Install
+
+```
+npm i @mind-elixir/export-image canvg
+```
+
+## Usage
+
+
+```javascript
+import exportImage from '@mind-elixir/export-image'
+
+const mind = new MindElixir(options)
+mind.install(exportImage)
+const data = MindElixir.new('new topic')
+mind.init(example)
+```

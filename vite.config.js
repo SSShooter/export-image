@@ -5,9 +5,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'index.js'),
-      name: '@mind-elixir/template-name',
+      name: '@mind-elixir/export-image',
       // the proper extensions will be added
-      fileName: 'template-name',
+      fileName: 'export-image',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

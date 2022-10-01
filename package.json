@@ -1,16 +1,16 @@
 {
-  "name": "@mind-elixir/template-name",
-  "version": "1.0.0",
+  "name": "@mind-elixir/export-image",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/template-name.umd.cjs",
-  "module": "./dist/template-name.js",
+  "main": "./dist/export-image.umd.cjs",
+  "module": "./dist/export-image.js",
   "exports": {
     ".": {
-      "import": "./dist/template-name.js",
-      "require": "./dist/template-name.umd.cjs"
+      "import": "./dist/export-image.js",
+      "require": "./dist/export-image.umd.cjs"
     }
   },
   "scripts": {
@@ -19,8 +19,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "mind-elixir": "^1.1.0",
+    "canvg": "^3.0.6",
+    "mind-elixir": "1.1.1",
     "vite": "^3.0.0"
   },
-  "peerDependencies": {}
+  "peerDependencies": {
+    "canvg": "^3.0.6"
+  }
 }
