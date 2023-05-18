@@ -1,6 +1,6 @@
 # @mind-elixir/export-image
 
-**WIP🚧**
+**WIP🚧Only work for Mind Elixir 1.x**
 
 ## Install
 
@@ -18,6 +18,8 @@ const mind = new MindElixir(options)
 mind.install(exportImage)
 const data = MindElixir.new('new topic')
 mind.init(example)
+mind.exportPng('file_name.png')
+mind.exportSvg ('file_name.svg')
 ```
 
 ## Thanks
