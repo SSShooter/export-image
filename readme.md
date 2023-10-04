@@ -1,6 +1,6 @@
 # @mind-elixir/export-image
 
-**WIP🚧Only work for Mind Elixir 1.x**
+**Deprecated: Only work for Mind Elixir 1.x, use `instance.exportPng()` in 3.2.2+**
 
 ## Install
 
