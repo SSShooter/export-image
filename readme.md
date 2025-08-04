@@ -1,3 +1,7 @@
+**This project has been moved to https://github.com/mind-elixir/plugins/tree/main/packages/export-mindmap. This repository will no longer be maintained.**
+
+---
+
 # @mind-elixir/export-image
 
 **Deprecated: Only work for Mind Elixir 1.x, use `instance.exportPng()` in 3.2.2+**
